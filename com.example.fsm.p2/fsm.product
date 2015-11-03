@@ -25,12 +25,7 @@
       startupMessageRect="5,10,440,20"
       startupForegroundColor="4E5A3B" />
    <launcher name="fsm">
-      <linux icon="icons/alt_launcher.xpm"/>
-      <solaris/>
-      <win useIco="true">
-         <ico path="icons/alt_launcher.ico"/>
-         <bmp/>
-      </win>
+     
    </launcher>
 
    <intro introId="com.example.fsm.app.intro"/>
