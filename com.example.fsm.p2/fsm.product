@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="FSM Application" uid="fsm" id="com.example.fsm.app.product" 
-	application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="FSM Application" uid="fsm" id="com.example.fsm.app.product" application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="eclipse_lg.gif"/>
@@ -25,10 +24,9 @@
       startupProgressRect="5,280,450,15"
       startupMessageRect="5,10,440,20"
       startupForegroundColor="4E5A3B" />
-   
    <launcher name="fsm">
-      <solaris/>
       <linux icon="icons/alt_launcher.xpm"/>
+      <solaris/>
       <win useIco="true">
          <ico path="icons/alt_launcher.ico"/>
          <bmp/>
