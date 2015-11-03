@@ -3,7 +3,8 @@
       id="com.example.fsm.3rdparty.feature"
       label="FSM 3rdparty Feature"
       version="1.0.0.qualifier"
-      provider-name="EXAMPLE">
+      provider-name="EXAMPLE"
+      plugin="com.example.fsm.app">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
