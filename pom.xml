@@ -40,13 +40,16 @@
 	</modules>
 
 	<properties>
-		<tycho.version>0.24.0</tycho.version>
-		<tycho-extras.version>0.24.0</tycho-extras.version>
+		<tycho.version>0.22.0</tycho.version>
+		<tycho-extras.version>0.22.0</tycho-extras.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<kepler-repo.url>http://download.eclipse.org/releases/kepler</kepler-repo.url>
 		<tycho-repo.url>https://oss.sonatype.org/content/groups/public/</tycho-repo.url>
 		<cbi-repo.url>https://repo.eclipse.org/content/repositories/cbi-releases/</cbi-repo.url>
+		<tycho.scmUrl>scm:git:git://github.com/deveshg/fsm.git</tycho.scmUrl>
+		<product-id>fsm</product-id>
 	</properties>
+	
 
 
 	<repositories>
@@ -269,7 +272,7 @@
 					</dependencies>
 					<configuration>
 						<strictBinIncludes>false</strictBinIncludes>
-						<format>'v'yyyyMMddHHmm</format>
+						<format>'v'yyyyMMdd'-'HHmm</format>
 						<timestampProvider>jgit</timestampProvider>
 						<jgit.ignore>
 							pom.xml

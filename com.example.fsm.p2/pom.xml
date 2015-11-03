@@ -13,6 +13,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
 
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -22,8 +23,8 @@
 				<configuration>
 					<products>
 						<product>
-							<id>fsm</id>
-							<rootFolder>fsm</rootFolder>
+							<id>${product-id}</id>
+							<rootFolder>${product-id}</rootFolder>
 						</product>
 					</products>
 					<formats>
@@ -44,6 +45,31 @@
 						<goals>
 							<goal>archive-products</goal>
 						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.5</version>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/products/${product-id}/icons/</outputDirectory>
+							<nonFilteredFileExtensions>
+								<nonFilteredFileExtension>ico</nonFilteredFileExtension>
+								<nonFilteredFileExtension>xpm</nonFilteredFileExtension>
+							</nonFilteredFileExtensions>
+							<resources>
+								<resource>
+									<directory>icons</directory>
+								</resource>
+							</resources>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
