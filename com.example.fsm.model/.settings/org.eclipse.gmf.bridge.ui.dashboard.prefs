@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+gmf_dashboard/domainGenerationModel=platform\:/resource/com.example.fsm.model/model/fsm.genmodel
+gmf_dashboard/domainModel=platform\:/resource/com.example.fsm.model/model/fsm.ecore
+gmf_dashboard/generationModel=platform\:/resource/com.example.fsm.model/model/fsm.gmfgen
+gmf_dashboard/graphicalDefinitionModel=platform\:/resource/com.example.fsm.model/model/fsm.gmfgraph
+gmf_dashboard/mappingModel=platform\:/resource/com.example.fsm.model/model/fsm.gmfmap
+gmf_dashboard/option_rcp=*
+gmf_dashboard/toolingDefinitionModel=platform\:/resource/com.example.fsm.model/model/fsm.gmftool

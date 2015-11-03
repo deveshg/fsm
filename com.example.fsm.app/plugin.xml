@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      	 <product application="org.eclipse.ui.ide.workbench" name="FSM Application">
+         
+         <property name="aboutText" value="%productBlurb" />
+         <property name="windowImages" value="eclipse16.png,eclipse16.gif,eclipse32.gif,eclipse32.png,eclipse48.gif,eclipse48.png,eclipse64.gif,eclipse128.gif" />
+         <property name="aboutImage" value="eclipse_lg.gif" />
+         <property name="appName" value="FSM Application" />
+         <property name="startupForegroundColor" value="4E5A3B"/>
+         <property name="startupMessageRect" value="5,10,440,20"/>
+         <property name="startupProgressRect" value="5,280,450,15"/>
+         <property name="preferenceCustomization" value="plugin_customization.ini" />
+         
+		 <property name="cssTheme" value="org.eclipse.e4.ui.css.theme.e4_default" />
+		 <property name="applicationXMI" value="org.eclipse.platform/LegacyIDE.e4xmi" />
+		 <property name="applicationCSSResources" value="platform:/plugin/org.eclipse.platform/images/" />
+		 
+      </product>
+   </extension>
+   
+
+</plugin>

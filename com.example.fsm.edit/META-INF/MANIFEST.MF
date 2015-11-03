@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.example.fsm.edit;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: com.example.fsm.provider.FSMEditPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.example.fsm.provider
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.9.100,4.0.0)",
+ com.example.fsm.model;bundle-version="[1.0.0,1.1.0)";visibility:=reexport,
+ org.eclipse.emf.edit;bundle-version="[2.9.0,3.0.0)";visibility:=reexport
+Bundle-ActivationPolicy: lazy

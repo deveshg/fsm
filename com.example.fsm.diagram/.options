@@ -1,0 +1,7 @@
+# Tracing options for the com.example.fsm.diagram plug-in
+
+# Common issues
+com.example.fsm.diagram/debug=false
+
+# Visual IDs
+com.example.fsm.diagram/debug/visualID=false
