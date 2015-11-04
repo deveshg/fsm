@@ -23,6 +23,7 @@
 		<!-- FSM UI Framework -->
 		<module>com.example.fsm.editor</module>
 		<module>com.example.fsm.diagram</module>
+		<module>com.example.fsm.menus</module>
 		<module>com.example.fsm.ui.feature</module>
 
 		<!-- FSM Test Framework -->
