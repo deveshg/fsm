@@ -4,5 +4,5 @@
 #provides.99.name=com.example.fsm.feature.group
 #provides.99.version=2
 instructions.configure=\
-org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//localhost:8080/fsm/repository/releases/1.0,type:0,name:FSM Application Release 1.0 - Base Update Site,enabled:true); \
-org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//localhost:8080/fsm/repository/updates/1.0,type:0,name:FSM Application Release 1.0 -  Update Site,enabled:true); 
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//localhost:8080/demo/fsm/repository/releases/1.0,type:0,name:FSM Application Release 1.0 ,enabled:true); \
+org.eclipse.equinox.p2.touchpoint.eclipse.addRepository(location:http${#58}//localhost:8080/demo/fsm/repository/updates/1.0,type:0,name:FSM Application Updates 1.0,enabled:true); 
