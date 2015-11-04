@@ -27,7 +27,9 @@
       startupForegroundColor="4E5A3B" />
    <launcher name="fsm">
       <solaris/>
-      <win useIco="false">
+      <linux icon="icons/alt_launcher.xpm"/>
+      <win useIco="true">
+         <ico path="icons/alt_launcher.ico"/>
          <bmp/>
       </win>
    </launcher>
