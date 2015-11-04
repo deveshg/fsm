@@ -8,7 +8,7 @@
       	 <product application="org.eclipse.ui.ide.workbench" name="FSM Application">
          
          <property name="aboutText" value="%productBlurb" />
-         <property name="windowImages" value="eclipse32.gif,eclipse32.png,eclipse48.gif,eclipse64.gif,eclipse128.gif" />
+         <property name="windowImages" value="eclipse16.gif,eclipse16.png,eclipse32.gif,eclipse32.png,eclipse48.gif,eclipse48.png,eclipse64.gif,eclipse64.png,eclipse128.gif" />
          <property name="aboutImage" value="eclipse_lg.gif" />
          <property name="appName" value="FSM Application" />
          <property name="startupForegroundColor" value="4E5A3B"/>
