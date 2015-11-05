@@ -2,7 +2,7 @@
 <feature
       id="com.example.fsm.platform.feature"
       label="FSM Platform Feature"
-      version="1.0.0.qualifier"
+      version="1.3.0.qualifier"
       provider-name="EXAMPLE"
       plugin="com.example.fsm.app">
 

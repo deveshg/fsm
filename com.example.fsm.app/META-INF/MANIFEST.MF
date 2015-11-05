@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: App
 Bundle-SymbolicName: com.example.fsm.app;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.3.0.qualifier
 Bundle-Activator: com.example.fsm.app.Activator
 Bundle-Vendor: EXAMPLE
 Require-Bundle: org.eclipse.ui;bundle-version="[3.105.0,4.0.0)",

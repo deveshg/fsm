@@ -2,7 +2,7 @@
 <feature
       id="com.example.fsm.3rdparty.feature"
       label="FSM 3rdparty Feature"
-      version="1.0.0.qualifier"
+      version="1.1.0.qualifier"
       provider-name="EXAMPLE"
       plugin="com.example.fsm.app">
 
@@ -24,6 +24,14 @@
 
    <includes
          id="org.eclipse.egit"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.wst.xsl.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.wst.xml_ui.feature"
          version="0.0.0"/>
 
 </feature>
